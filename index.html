@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/ee739ea2e8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>WEATHER DASHBOARD</header>
+
+    <div class="search">
+        <form id="city" action="">
+            <h2>Search for a city:</h2>
+            <input type="text" placeholder="City..." name="fa-search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+
+
+    </div>
+
+    <div class="row">
+        <div class="result">
+            <h1></h1>
+            <ul>
+                <li>Temerature:</li>
+                <li>Humidity:</li>
+                <li>Wind Speed:</li>
+                <li>UV index:</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="forcast">
+            <h2>5 day forcast:</h2>
+            <div id="day"></div>
+            <div id="day"></div>
+            <div id="day"></div>
+            <div id="day"></div>
+            <div id="day"></div>
+        </div>
+    </div>
+
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
